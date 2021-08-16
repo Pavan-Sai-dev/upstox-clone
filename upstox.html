@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +8,15 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="upstox.css">
 </head>
-
 <body>
-    
-
-        <div class="container">
-            <form>
+    <!-- this is a container with white background -->
+    <div class="container">
+        <!-- This is a form needed for form submission -->
+        <div class="site-log">
+            <img src="assets/logo.svg" alt="upstox logo">
+        </div>
+        <form>
+            <!-- this is another container to hold inputs -->
             <div class="sai">
                 <h3>Sign in to your account</h3>
                 <label>User ID</label>
@@ -24,11 +26,14 @@
                 <a href="#" class="down">Forgot password</a>
                 <input class="user" type="password" placeholder="Enter your password" required />
             </div>
-
-            <input class="btn" type="button" value="Sign into Upstox" />
-
-        </div>
-    </form>
+            <!-- this is a submit button -->
+            <button class="btn" type="submit">Sign into Upstox
+                <!-- <img src="assets/image.svg" alt="Go" class="submit-icon"> -->
+                <span class="submit-icon">
+                    <svg viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z" fill="currentcolor"/></svg>
+                </span>
+            </button>
+        </form>
+    </div>
 </body>
-
 </html>
