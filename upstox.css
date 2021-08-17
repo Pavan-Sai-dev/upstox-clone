@@ -5,12 +5,12 @@ body {
 
 .container {
   background-color: azure;
-  width: 460px;
+  width: 430px;
   height: 450px;
   margin: 0 auto;
   text-align: center;
   margin-top: 150px;
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 .user {
@@ -19,9 +19,12 @@ body {
   /*margin: 4px;*/
   border-radius: 6px;
   margin-right: 50px;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-bottom: 10px;
-  background-color: whitesmoke;
+  background-color: white;
+  border-color: white;
+  border-top:whitesmoke;
+  border-left: whitesmoke;
 }
 
 input {
@@ -34,8 +37,9 @@ input {
   background-color: #003399;
   color: white;
   border-radius: 10px;
-
+  margin-top: -100px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -51,19 +55,19 @@ input {
 .up {
   float: right;
   text-decoration: none;
-  color: lightblue;
+  color: rgb(191, 190, 245);
 
   padding-left: 20px;
 }
 
 .down {
   text-decoration: none;
-  color: lightblue;
+  color: rgb(191, 190, 245);
   float: right;
 }
 
 label {
-  color: lightblue;
+  color: rgb(191, 190, 245);
   padding-inline-end: 50px;
   padding-top: 10px;
 }
@@ -72,10 +76,24 @@ h3 {
   margin-top: -2px;
   padding-right: 95px;
   font-size: 19px;
+  font-weight: lighter;
 }
 
 .submit-icon svg {
   height: 16px;
   width: 16px;
   vertical-align: middle;
+  
+}
+.site-log {
+  margin-left: 30px ;
+  padding-top: 29px;
+}
+
+.ask {
+  margin-top: -19px;
+}
+
+.create {
+  color: #003399;
 }
